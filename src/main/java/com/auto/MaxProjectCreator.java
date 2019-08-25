@@ -21,6 +21,7 @@ public class MaxProjectCreator {
          * 有效投注  要求   当日次数 当日总计 最近提现时间。如果时间是当前，就获取当日次数和总计
          * */
         serviceModel.put("view",new String[]{"view", "activityConfig","activityRecord", "activityOrder"});
+        serviceModel.put("core",new String[]{"core"});
         serviceModel.put("activity",new String[]{"activityProperty","activityConfig","activityRecord", "activityOrder"});
         serviceModel.put("job",new String[]{"job"});
         serviceModel.put("proxy",new String[]{"proxy", "invited","proxyOrder"});
