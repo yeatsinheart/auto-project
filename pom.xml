@@ -24,7 +24,7 @@
         <mybatisplus-spring-boot-starter.version>1.0.4</mybatisplus-spring-boot-starter.version>
         <mybatis-plus.version>3.1.2</mybatis-plus.version>
         <mysql.driver.version>8.0.15</mysql.driver.version>
-        <swagger.version>2.9.2</swagger.version>
+        <swagger.version>2.10.0</swagger.version>
     </properties>
 
     <dependencies>
